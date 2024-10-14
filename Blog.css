@@ -1,0 +1,16 @@
+html{
+    font-size: 25px;
+}
+
+body{
+    background-color:#E6A09C;
+    color:whitesmoke;
+}
+
+a:visited{
+    color:#5587A0;
+}
+
+a:hover,a:active{
+    color:#eee;
+}

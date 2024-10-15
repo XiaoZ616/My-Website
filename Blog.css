@@ -17,7 +17,7 @@ a:hover,a:active{
 
 table, tr, th, td, caption {
     border: 1px solid #eee;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     border-collapse: collapse;
     padding: 0.5em;
 }

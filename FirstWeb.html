@@ -140,6 +140,56 @@
         </section>
         <br>
 
+        <section id="Contact">
+            <h2>Contact Me</h2>
+            <p>I'd really like to hear from you!</p>
+
+            <form action="https:///get" method="get">
+                <p>
+                    <label for="firstname">Fisrt Name:</label>
+                    <input type="text" name="firstname" id="firstname"
+                    placeholder="Bin" autocomplete="on" required >
+                </p>
+
+                <p>
+                    <label for="lasttname">Last Name:</label>
+                    <input type="text" name="lastname" id="firstname"
+                    placeholder="Chou" autocomplete="on" required >
+                </p>
+
+                <!--<p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password"
+                    placeholder="your secret" autocomplete="on" required >
+                </p>-->
+
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone"
+                    placeholder="33344445555" autocomplete="on" 
+                    pattern="[0-9]{3}[0-9]{4}[0-9]{4}" required >
+                </p>
+                
+                <p>
+                    <label for="FavoriteThing">Favorite Activity</label>
+                    <select name="FavoriteThing" id="FavoriteThing">
+
+                        <option value="study">Study</option>
+                        <option value="sleep">Sleep</option>
+                        <option value="computergame">ComputerGame</option>
+                        <option value="travel">Travel</option>
+
+                        <optgroup label="Sports" >
+                            <option value="football">Football</option>
+                            <option value="basketball">Basketball</option>
+                            <option value="tabletennis">Table Tennis</option>
+                            <option value="badminton">badminton</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </form>
+        </section>
+
     </main>
     <hr>
 

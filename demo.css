@@ -1,16 +1,27 @@
 html{
-    font-size: 22px;
+    font-size: 23px;
 }
 
 body{
-    background-color:#333;
-    color:whitesmoke;
+    background-color:#c3edf8;
+    color:rgb(0, 0, 0);
 }
 
 a:visited{
-    color:lightgray;
+    color:rgb(69, 41, 147);
 }
 
 a:hover,a:active{
-    color:#eee;
+    color:#d51616;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #709a1b;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+legend {
+    color: rgb(144, 127, 255);
 }

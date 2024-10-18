@@ -25,3 +25,7 @@ table, tr, th, td, caption {
 legend {
     color: rgb(144, 127, 255);
 }
+
+hr{
+    color: rgb(160, 172, 60);
+}

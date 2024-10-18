@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    /* background-image: url("Img/Blog_Back.jpg"); */
     background-color:#E6A09C;
     color:whitesmoke;
 }
@@ -24,4 +25,26 @@ table, tr, th, td, caption {
 
 h3{
     color:#23AED7;
+}
+
+.PS{
+    color: rgb(178, 255, 127);
+}
+
+h3{
+    margin-left: 15px;
+}
+
+p{
+    border-style: dashed;
+    
+    padding-left: 10px;
+}
+
+.introduction{
+    color: #2F5E63;
+}
+
+#Catalogue{
+    color: rgb(136, 0, 255);
 }
